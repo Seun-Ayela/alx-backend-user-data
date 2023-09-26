@@ -46,3 +46,6 @@ class SessionAuth(Auth):
             return False
         del self.user_id_by_session_id[cookie]
         return True
+
+
+
